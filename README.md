@@ -18,3 +18,5 @@ $ sphinx-build -M html source build
 
 ## Publish
 Export contents of `build/html` to host.
+
+N.B. For GitHub, touch `.nojekyll` file on the root of the branch.
