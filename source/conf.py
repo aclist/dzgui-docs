@@ -25,7 +25,9 @@ exclude_patterns = []
 #html_theme = 'alabaster'
 extensions = [
     'sphinx_rtd_theme',
-    'sphinx_copybutton'
+    'sphinx_copybutton',
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.githubpages"
 ]
 html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
