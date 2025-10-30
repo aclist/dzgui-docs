@@ -58,7 +58,6 @@ See: :doc:`kb` or :ref:`Submitting a ticket`.
 
    steam
    locale
-   development
 
 .. toctree::
    :caption: Help
@@ -67,3 +66,4 @@ See: :doc:`kb` or :ref:`Submitting a ticket`.
 
    kb
    bugs
+   development

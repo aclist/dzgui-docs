@@ -1,4 +1,4 @@
-Development
+Developers
 ===========
 
 This project is open source under the GPLv3 license. You can find the source code on
