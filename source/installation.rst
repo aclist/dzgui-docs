@@ -24,17 +24,17 @@ UI dependencies (Python and PyGObject)
     Depending on your distribution, this may require additional manual intervention.
 
 Arch Linux variants
-_________________________
+^^^^^^^^^^^^^^^^^^^^^^
 In general, Python 3.13 and PyGObject are available out of the box.
 You can proceed to the :ref:`Installscript`.
 
 Debian 13 variants
-_________________________
+^^^^^^^^^^^^^^^^^^^^^^^
 Python 3.13 and PyGObject are available out of the box. No additional steps are necessary.
 You can proceed to the :ref:`Installscript`.
 
 Fedora 43 variants
-_________________________
+^^^^^^^^^^^^^^^^^^^^^^^
 Fedora 43 ships with a newer version of Python (3.14), so you must set up Python 3.13 in its own
 virtual environment (venv) to prevent it from conflicting with the system package.
 
@@ -47,7 +47,7 @@ Install the following build dependencies:
 .. include:: venv.rst
 
 Ubuntu 24
-_________________________
+^^^^^^^^^^^^^^^^^^^^^^
 Ubuntu ships with an older version of Python (3.12). You must install additional dependencies.
 Add the PPA below to add Python 3.13 to your sources:
 
@@ -64,7 +64,7 @@ Install the following build dependencies:
 .. include:: venv.rst
 
 Installscript
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 Invoke the command below from a terminal. This script fetches the main DZGUI script from the repository,
 makes it executable, and launches DZGUI's first-time setup. After running this installscript, you will
@@ -75,7 +75,7 @@ have the file ``dzgui.sh`` wherever you invoked the command.
     curl -s "https://codeberg.org/aclist/dztui/raw/branch/dzgui/install.sh" | bash
 
 nixOS installation
-^^^^^^^^^^^^^^^^^^^
+----------------------
 Two packages are independently maintained by other contributors. Each takes a slightly different approach.
 nixOS packages are standalone and do not require cloning the git repository.
 
