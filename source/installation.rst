@@ -23,9 +23,21 @@ UI dependencies (Python and PyGObject)
     As of version 6.0.0, you must have a valid Python 3.13 and matching PyGObject environment.
     Depending on your distribution, this may require additional manual intervention.
 
-Arch Linux variants
+Arch Linux (vanilla variants)
 ^^^^^^^^^^^^^^^^^^^^^^
-In general, Python 3.13 and PyGObject are available out of the box.
+You will need the ``python3.13`` package, if it is not already installed.
+
+Install the following build dependencies:
+
+.. code:: console
+
+   sudo pacman -S cmake gcc pkgconf python-cairo
+
+.. include:: venv.rst
+
+Manjaro (Arch)
+^^^^^^^^^^^^^^^^^^^^^^^
+Python 3.13 and PyGObject should be available out of the box.
 You can proceed to the :ref:`Installscript`.
 
 Debian 13 variants
@@ -46,7 +58,7 @@ Install the following build dependencies:
 
 .. include:: venv.rst
 
-Ubuntu 24
+Ubuntu 24 variants
 ^^^^^^^^^^^^^^^^^^^^^^
 Ubuntu ships with an older version of Python (3.12). You must install additional dependencies.
 Add the PPA below to add Python 3.13 to your sources:
