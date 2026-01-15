@@ -17,7 +17,7 @@ After installation, refer to the additional remarks below.
 
     #!/usr/bin/env bash
     source $HOME/.virtualenvs/dzgui/bin/activate
-    . <insert your path to dzgui.sh>
+    <insert your path to dzgui.sh>
 
 Make sure to update the placeholder path on the last line. For example, if you ran the
 installscript from your home directory, the wrapper script would look like:
@@ -26,7 +26,7 @@ installscript from your home directory, the wrapper script would look like:
 
     #!/usr/bin/env bash
     source $HOME/.virtualenvs/dzgui/bin/activate
-    . $HOME/dzgui.sh.
+    $HOME/dzgui.sh
 
 Save this wrapper script in a location of your choice, e.g., ``mywrapper.sh`` and set the
 executable bit: ``chmod +x mywrapper.sh`` This script will be your entrypoint for
