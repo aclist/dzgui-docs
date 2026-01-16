@@ -36,5 +36,5 @@ html_show_copyright = False
 html_show_sourcelink = False
 
 today_fmt = "%Y-%m-%d"
-release = "6.0.x"
-version = "6.0.x"
+release = "6.x.x"
+version = "6.x.x"
